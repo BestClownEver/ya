@@ -1,0 +1,823 @@
+@font-face {
+    font-family: "NicoMoji-Regular";
+    src: url(./fonts/NicoMoji-Regular.ttf) format('truetype');
+  
+}
+
+@font-face {
+    font-family: "websymvols";
+    src: url(./fonts/websymvols.ttf) format('truetype');
+  
+}
+
+@font-face {
+    font-family: "Pixel";
+    src: url(./fonts/Pixel.ttf) format('truetype');
+    
+}
+
+
+@font-face {
+    font-family: "Cakra";
+    src: url(./fonts/Cakra.ttf) format('truetype');
+  
+}
+
+.header {
+    background-color: #2c2c2c;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c2c2c;
+}
+
+@font-face {
+    font-family: "Rus";
+    src: url(./fonts/Rus.ttf) format('truetype');
+   
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(./fonts/Roboto.ttf) format('truetype');
+ 
+}
+
+.firstimg {
+    font-family: "NicoMoji-Regular";
+    font-size: 35px;
+}
+
+.logo {
+    vertical-align: middle;
+    height: 67px;
+    width: 90px;
+    margin-left: 100px;
+}
+
+.burgerHTML {
+    align-items: flex-end;
+    background-color: #2c2c2c;
+    display: none;
+    border: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    margin-right: 20px
+}
+
+.Kho:hover {
+    color: purple;
+    transition: 2s;
+}
+
+.burgerHTML span {
+    height: 4px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #00C4F0;
+}
+
+.big {
+    width: 40px;
+}
+
+.small {
+    width: 20px;
+}
+
+.side-right {
+    top: 120px;
+    width: 478px;
+    margin-top: 120px;
+}
+
+p {
+    font-family: "Roboto";
+    color: white;
+    font-size: 15px
+}
+
+h1 {
+    color: white;
+    font-family: "Roboto";
+    font-size: 50px;
+    text-shadow: 1px 5px 5px black;
+}
+
+.black {
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonME {
+    background-color: purple;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 25px purple;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+    transition: all ease 1s;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.buttonME:hover {
+    background-color: rgb(78, 4, 78);
+    color: brown;
+    transform: scale(1.1);
+}
+
+.man {
+    width: 632px;
+    height: 574px;
+    margin-top: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Rus";
+    margin: 0 15px;
+    font-size: 25px;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+.onemoreA {
+    margin: 0;
+    padding: 0;
+}
+
+.Glavnaya {
+    color: purple;
+    font-family: "Rus";
+    margin: 0 15px;
+    transition: 1s;
+}
+
+.Glavnaya:hover {
+    color: rgb(238, 8, 238);
+    transition: 2s;
+    margin: 0 15px;
+}
+
+.purple:hover {
+    color: purple;
+    transition: 2s;
+}
+
+h2 {
+    text-align: center;
+    color: purple;
+    font-family: "Cakra";
+    font-size: 70px;
+    text-shadow: 1px 5px 5px black;
+}
+
+.grey {
+    width: auto;
+    height: 100%;
+    background-color: #3e3e3e;
+}
+
+.cont {
+    background-color: #2c2c2c;
+}
+
+.skills {
+    font-size: 40px;
+}
+
+.aboutme {
+    padding-bottom: 100px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.HTML-CSS-FIGMA-skill {
+    font-family: "NicoMoji-Regular";
+    font-size: 25px;
+}
+
+.abillities {
+    width: 356px;
+    height: 337px;
+    margin: 309px 0px 72px 199px;
+}
+
+.html {
+    width: 300px;
+    height: 10px;
+    border: none;
+    background: -webkit-gradient(radial, 100% 100%, 160, 100% 100%, 160, from(#2c2c2c), to(purple));
+}
+
+.css {
+    width: 300px;
+    height: 10px;
+    border: none;
+    background: -webkit-gradient(radial, 100% 100%, 100, 100% 100%, 100, from(#2c2c2c), to(purple));
+}
+
+.figma {
+    width: 300px;
+    height: 10px;
+    border: none;
+    background: -webkit-gradient(radial, 100% 100%, 200, 100% 100%, 200, from(#2c2c2c), to(purple));
+}
+
+.me {
+    width: 632px;
+    height: 575px;
+    margin-top: 215px;
+    margin-left: 360px;
+}
+
+.my-photo {
+    width: 454px;
+    height: 452px;
+    border-radius: 100%;
+    border: 67px solid purple;
+    box-shadow: 1px 1px 55px 5px purple;
+}
+
+.star:nth-child(2) {
+    top: 1350px;
+    transform: translateX(-60%);
+}
+
+.star:nth-child(3) {
+    top: 1555px;
+    transform: translateX(0%);
+
+}
+
+.star:nth-child(4) {
+    top: 1170px;
+    transform: translateX(60%);
+}
+
+.star:nth-child(5) {
+    top: 1130px;
+    transform: translateX(450%);
+}
+
+.star {
+    margin-top: 5px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #3e3e3e;
+    box-shadow: 1px 1px 55px 5px black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: purple;
+    font-size: 100px;
+    text-shadow: 1px 2px 3px black;
+    -webkit-text-stroke: 1px black;
+}
+
+.grey2 {
+    background-color: #2c2c2c;
+    width: 100%;
+    height: 100%;
+}
+
+.code {
+    width: 881px;
+    height: 511px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 40px solid #414141;
+    position: relative;
+}
+
+.galleryBlack {
+    background-color: #414141;
+}
+
+.photo1-3 {
+    width: 478px;
+    height: 356px;
+    margin: 25px 10px 35px 10px;
+}
+
+.photo4-6 {
+    width: 478px;
+    height: 356px;
+    margin: 25px 10px 35px 10px;
+}
+
+.name {
+    justify-content: space-around;
+    display: flex;
+}
+
+.text-name {
+    margin-left: 80px;
+    color: white;
+    font-family: "Cakra";
+    font-size: 50px;
+    text-shadow: 1px 5px 5px black;
+}
+
+.text_prava {
+    font-size: 40px;
+    font-family: "Pixel";
+}
+
+.soc_seti:hover {
+    transform: scale(2);
+}
+
+.soc_seti {
+    width: 70px;
+    transition: all ease 0.7s;
+    height: 70px;
+    margin-top: 75px;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.soc_seti-div {
+    width: 300px;
+    height: 52.5px;
+    margin-left: 100px;
+}
+
+.player {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: none;
+    transition: 1s;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player::before {
+    position: absolute;
+    transition: all ease 0.5s;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    content: '\25B6';
+}
+
+.player:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 2px 3px 10px 3px purple;
+    color: purple;
+}
+
+li {
+    display: inline-block;
+}
+
+.god {
+    font-family: monospace;
+    font-size: 35px;
+}
+
+@media (max-width:834px) {
+    .header {
+        background-color: #2c2c2c;
+        color: white;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .man {
+        width: 359px;
+        height: 357px;
+        margin-top: 120px;
+        margin-left: -100px;
+    }
+
+    .side-right {
+        width: 324px;
+    }
+
+    .my-photo {
+        width: 360px;
+        height: 350px;
+        margin-top: -150px;
+        margin-left: -50px;
+    }
+
+    .aboutme {
+        padding-bottom: 100px;
+        display: flex;
+        width: 832px;
+        height: 1167px;
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333
+    }
+
+    li {
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid #444;
+    }
+
+    .burgerHTML {
+        display: flex;
+    }
+
+    .star:nth-child(2) {
+        top: 1100px;
+        transform: translateX(-140%);
+    }
+
+    .star:nth-child(3) {
+        top: 1280px;
+        transform: translateX(0%);
+    }
+
+    .star:nth-child(4) {
+        top: 900px;
+        transform: translateX(60%);
+    }
+
+    .star:nth-child(5) {
+        top: 900px;
+        transform: translateX(450%);
+    }
+
+    .star {
+        margin-top: 5px;
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        position: absolute;
+        background-color: #3e3e3e;
+        box-shadow: 1px 1px 55px 5px black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: purple;
+        font-size: 80px;
+        text-shadow: 1px 2px 3px black;
+        -webkit-text-stroke: 1px black;
+    }
+
+    .abillities {
+        height: 337px;
+        margin: -150px 250px 0px 0px;
+    }
+
+    hr {
+        width: 400px;
+        height: 10px;
+    }
+
+    .code {
+        width: 650px;
+        height: 400px;
+        margin-left: 70px;
+    }
+
+    .text-name {
+        font-size: 35px;
+    }
+
+    .text-prava {
+        font-size: 15px;
+    }
+
+    .soc_seti-div {
+        width: 243px;
+        height: 50px;
+        margin-left: 0px;
+    }
+
+    .photos {
+        width: 834px;
+        height: 2681px;
+    }
+
+    .name {
+        width: 834px;
+        height: 176px;
+    }
+
+    .grey {
+        width: 834px;
+        height: 100%;
+        background-color: #3e3e3e;
+    }
+}
+
+/* /////////////////////////////////////// */
+@media (max-width:440px) {
+    body{
+        width: 439px;
+    }
+    .header {
+        background-color: #2c2c2c;
+        color: white;
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 380px;
+    }
+
+    .black{
+        background-color: #2c2c2c;
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h1 {
+        color: white;
+        font-family: "Roboto";
+        font-size: 30px;
+        text-shadow: 1px 5px 5px black;
+    }
+
+    .man {
+        width: 279px;
+        height: 278px;
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+
+    .side-right {
+        width: 306px;
+        margin-left: 0px;
+    }
+
+    .black-read {
+        background-color: #2c2c2c;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-photo {
+        width: 179px;
+        height: 178px;
+        margin-top: -100px;
+        margin-left: 300px;
+        border-radius: 100%;
+        border: 30px solid purple;
+        box-shadow: 1px 1px 55px 5px purple;
+    }
+
+    .fristimg {
+        font-family: "NicoMoji-Regular";
+        font-size: 20px;
+        margin-left: -80px;
+    }
+
+    .aboutme {
+        padding-bottom: 100px;
+        display: flex;
+        width: 440px;
+        height: 667px;
+        flex-direction: column-reverse;
+        align-items: end;
+    }
+
+    .star {
+        margin-top: 5px;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        position: absolute;
+        background-color: #3e3e3e;
+        box-shadow: 1px 1px 55px 5px black;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: purple;
+        font-size: 30px;
+        text-shadow: 1px 2px 3px black;
+        -webkit-text-stroke: 1px black;
+    }
+
+    .star:nth-child(2) {
+        top: 1200px;
+        transform: translateX(830%);
+    }
+
+    .star:nth-child(3) {
+        top: 1135px;
+        transform: translateX(920%);
+    }
+
+    .star:nth-child(4) {
+        top: 1285px;
+        transform: translateX(890%);
+    }
+
+    .star:nth-child(5) {
+        top: 1130px;
+        transform: translateX(1350%);
+    }
+
+    .abillities {
+        height: 300px;
+        margin: 40px;
+        width: 300px;
+    }
+
+    .skills {
+        font-size: 22px;
+    }
+
+    .HTML-CSS-FIGMA-skill {
+        font-family: "NicoMoji-Regular";
+        font-size: 15px;
+    }
+
+    hr {
+        width: 300px;
+        height: 5px;
+    }
+
+    .code {
+        width: 310px;
+        height: 191px;
+        border: 20px solid #414141;
+    }
+
+    .text-name {
+        font-size: 20px;
+    }
+
+    .soc_seti {
+        width: 27px;
+        height: 31px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    .photo1-3 {
+        width: 310px;
+        height: 230px;
+        margin-left: 25px;
+    }
+
+    .photo4-6 {
+        width: 310px;
+        height: 230px;
+        margin-left: 25px;
+    }
+
+    .text-prava {
+        font-size: 15px;
+    }
+
+    .photos {
+        width: 440px;
+        height: 1832px;
+    }
+
+    .name {
+        width: 440px;
+        height: 176px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .soc_seti-block {
+        width: 200px;
+        text-align: center;
+        letter-spacing: 10px;
+        height: 50px;
+        display: flex;
+        margin-left: 110px;
+        justify-content: space-evenly;
+    }
+
+    .text-name {
+        text-align: center;
+        margin-left: 0px;
+        color: white;
+        font-family: "Cakra";
+        font-size: 15px;
+        text-shadow: 1px 5px 5px black;
+    }
+
+    .text-prava {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .grey {
+        width: 440px;
+        height: 100%;
+        background-color: #3e3e3e;
+    }
+
+    .logo {
+        margin-left: 50px;
+        width: 50px;
+        height: 36px;
+    }
+
+    img {
+        width: 310px;
+        height: 230px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .galleryBlack {
+        background-color: #414141;
+        width: 440px;
+    }
+
+    .player::before {
+        position: absolute;
+        transition: all ease 0.5s;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        content: '\25B6';
+    }
+
+    .player {
+        width: 50px;
+        height: 40px;
+        background: linear-gradient(130.68deg, #414141 0%, #2d2d2d 100.52%);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        border: none;
+    }
+
+    .god {
+        font-family: monospace;
+        font-size: 15px;
+    }
+
+    .text_prava{
+        font-size: 15px;
+    }
+
+    .soc_seti-div {
+        width: 150px;
+        height: 60px;
+        margin-left: 0px;
+    }
+}
